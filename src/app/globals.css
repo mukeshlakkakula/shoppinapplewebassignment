@@ -23,4 +23,13 @@ body {
   .typeheading {
     @apply font-semibold flex justify-start w-[100%] sm:font-bold  text-4xl sm:text-5xl lg:text-6xl;
   }
+  .notActive {
+    @apply hover:text-blue-500 font-sf text-[17px] text-[#1D1D1F] font-medium;
+  }
+  .activeText {
+    @apply font-sf text-[17px] text-[#86868B] font-medium;
+  }
+  .featureButtons {
+    @apply font-sf text-[17px] p-[12px] lg:p-[18px] bg-[#E8E8ED] text-[#1D1D1F] rounded-full;
+  }
 }

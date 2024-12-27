@@ -12,15 +12,9 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        "headline-elevated": [
-          "SF Pro KR",
-          "SF Pro Display",
+        sf: [
+          "SF Pro Text",
           "SF Pro Icons",
-          "Apple Gothic",
-          "HY Gulim",
-          "MalgunGothic",
-          "HY Dotum",
-          "Lexi Gulim",
           "Helvetica Neue",
           "Helvetica",
           "Arial",
