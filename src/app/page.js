@@ -2,10 +2,10 @@
 
 import React, { useRef, useState } from "react";
 import Image from "next/image";
-import appleLogo from "./Images/appleLogowatch.png";
-import watchHead from "./Images/applewatchbox.png";
-import watchbelt from "./Images/applewatchband.jpg";
-import sideviewWatch from "./Images/sideviewWatch.jpg";
+import appleLogo from "../../public/Images/applelogowatch.png";
+import watchHead from "../../public/Images/applewatchbox.png";
+import watchbelt from "../../public/Images/applewatchband.jpg";
+import sideviewWatch from "../../public/Images/sideviewWatch.jpg";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollToPlugin } from "gsap/all";
